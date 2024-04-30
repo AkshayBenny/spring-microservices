@@ -8,7 +8,7 @@ export default function Home() {
 		<main className='bg-white font-serif space-y-[100px]'>
 			<section
 				id='hero'
-				className='px-[120px] bg-custom h-[70vh] w-full flex items-center justify-start'>
+				className='md:px-[120px] px-[24px] bg-custom h-[70vh] w-full flex items-center justify-start'>
 				<div className='w-full max-w-[700px] space-y-[13px]'>
 					<h2 className='font-bold text-[36px] text-white'>
 						Richird Norton photorealistic rendering as real photos
@@ -22,10 +22,10 @@ export default function Home() {
 			</section>
 			<section
 				id='section-2'
-				className='px-[120px]'>
-				<h4 className='text-[#D4A373] font-bold text-[36px] pb-[24px]'>
-					&quot; Monotonectally seize superior mindshare rather than
-					efficient technology. &quot;
+				className='md:px-[120px] px-[24px]'>
+				<h4 className='text-[#D4A373] font-bold text-[24px] md:text-[36px] pb-[16px] md:pb-[24px]'>
+					&quot;Monotonectally seize superior mindshare rather than
+					efficient technology?&quot;
 				</h4>
 				<p className='text-[14px] text-[#495057] pb-5'>
 					Seamlessly syndicate cutting-edge architectures rather than
@@ -76,12 +76,12 @@ export default function Home() {
 					customer service without real-time scenarios.
 				</p>
 			</section>
-      <section
+			<section
 				id='section-2'
-				className='px-[120px]'>
-				<h4 className='text-[#D4A373] font-bold text-[36px] pb-[24px]'>
-					&quot; Monotonectally seize superior mindshare rather than
-					efficient technology. &quot;
+				className='px-[24px] md:px-[120px]'>
+				<h4 className='text-[#D4A373] font-bold text-[24px] md:text-[36px] pb-[16px] md:pb-[24px]'>
+					&quot;Monotonectally seize superior mindshare rather that
+					efficient technology?&quot;
 				</h4>
 				<p className='text-[14px] text-[#495057] pb-5'>
 					Seamlessly syndicate cutting-edge architectures rather than
