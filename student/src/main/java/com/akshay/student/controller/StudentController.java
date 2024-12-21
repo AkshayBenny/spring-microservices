@@ -28,6 +28,7 @@ public class StudentController {
     public void save(@RequestBody Student student) {
         service.saveStudent(student);
     }
+    
 
     @GetMapping
     public ResponseEntity<List<Student>> findAllStudents() {
